@@ -8,6 +8,6 @@ Using this model, BigMart will try to understand the properties of products and 
 ### What I did:
 1. Replaced the Nans and zero values, identified outliers, feature selection and normalization - for both train and test data.
 2. Visualised the data, studied the correlation amongst the data and chose the required features.
-3. Built the models: I created a single model function to which I passed various different models such as Linear Regression, Decision Trees and Random Forests. I will soon be adding tree boosting to it as well.
+3. Built the models: I created a single model function to which I passed various different models such as Linear Regression, Decision Trees and Random Forests.
 4. Calculated the Root Mean Squared Error (RMSE), predicted the sales, cross validated the scores.
 5. Classified the train data and imported the results for respective machine learning models to separate csv files (which have been attached above). The Decision Tree algorithm proved to be a clear winner with the lowest RMSE value.
